@@ -26,3 +26,6 @@ H(2) = Componente da velocidade do vento no eixo Y da aeronave\
 H(3) = Componente da velocidade do vento no eixo Z da aeronave\
 \
 O vetor Solução contém os estados que descrevem a aeronave (velocidades lineares e angulares, deslocamento e ângulos de trajetória) calculados ponto a ponto
+
+# INFORMAÇÕES ADICIONAIS
+Os arquivos em .txt são algumas derivadas aerodinâmicas retiradas do AVL que foram utilizadas para verificação do comportamento do programa. Sinta-se a vontade para mexer nos valores!
