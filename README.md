@@ -15,10 +15,10 @@ Ao final da simulação, gráficos são plotados ilustrando as variáveis de est
 
 -> SIMULAÇÃO DE PERTURBAÇÕES
 Vetor U: Vetor de deflexão das superfícies móveis do avião
-U(1) = RPM do motor
-U(2) = Deflexão do profundor (rad)
-U(3) = Deflexão do aileron (rad)
-U(4) = Deflexão do leme (rad)
+# U(1) = RPM do motor
+# U(2) = Deflexão do profundor (rad)
+# U(3) = Deflexão do aileron (rad)
+# U(4) = Deflexão do leme (rad)
 
 Vetor H: Vetor de velocidades do vento no eixo da aeronave
 H(1) = Componente da velocidade do vento no eixo X da aeronave
