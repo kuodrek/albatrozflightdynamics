@@ -5,6 +5,7 @@ O Algoritmo é baseado nas equações do livro Aircraft Control And Simulation (
 O programa utiliza aproximação linear dos coeficientes aerodinâmicos porém a função pode ser trocada para modelos mais sofisticados caso necessário
 As Equações de Dinâmica de Voo são totalmente acopladas e não-lineares
 
+# INSTRUÇÕES
 A planilha dinamicadados.xlsx recebe os dados da aeronave (Valores geométricos do avião, Coeficientes aerodinâmicos e Condições de contorno)
 O programa pode ser executado através da função dinamicamain.m. Dentro do Loop da simulação é possível simular as perturbações de Controle e rajadas de vento
 O AFD também conta com funções para se encontrar o estado de equilíbrio da Aeronave dada uma determinada condição através do método fminsearch
@@ -13,12 +14,12 @@ O AFD também conta com funções para se encontrar o estado de equilíbrio da A
 
 Ao final da simulação, gráficos são plotados ilustrando as variáveis de estado da aeronave para uma dada perturbação inserida pelo usuário
 
--> SIMULAÇÃO DE PERTURBAÇÕES
+# SIMULAÇÃO DE PERTURBAÇÕES
 Vetor U: Vetor de deflexão das superfícies móveis do avião
-# U(1) = RPM do motor
-# U(2) = Deflexão do profundor (rad)
-# U(3) = Deflexão do aileron (rad)
-# U(4) = Deflexão do leme (rad)
+\\ U(1) = RPM do motor
+U(2) = Deflexão do profundor (rad)
+U(3) = Deflexão do aileron (rad)
+U(4) = Deflexão do leme (rad)
 
 Vetor H: Vetor de velocidades do vento no eixo da aeronave
 H(1) = Componente da velocidade do vento no eixo X da aeronave
