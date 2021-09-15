@@ -1,9 +1,14 @@
-# ALBATROZ FLIGHT DYNAMICS V1
+# ALBATROZ FLIGHT DYNAMICS
 
 O AFD é um conjunto de funções escritas em MatLab que possibilitam a simulação do voo de uma aeronave em 6 graus de liberdade (6DOF).\
 O Algoritmo é baseado nas equações do livro Aircraft Control And Simulation (Stevens Et al.) e utiliza integração numérica pelo método de Runge-Kutta de 4a ordem.\
 O programa utiliza aproximação linear dos coeficientes aerodinâmicos porém a função pode ser trocada para modelos mais sofisticados caso necessário.\
 As Equações de Dinâmica de Voo são totalmente acopladas e não-lineares.
+
+# MOTIVAÇÃO
+O programa foi desenvolvido por mim para a equipe Albatroz Aerodesign com o intuito de tornar as análises de estabilidade em voo de uma aeronave mais sofisticadas. Com este simulador, é possível ir além das metodologias simplificadas que os livros de introdução de Estabilidade & Controle oferecem para que seja possível realizar um projeto aeronáutico mais preciso e competitivo.\
+Com o AFD é possível ver o comportamento da aeronave ao longo do tempo para qualquer tipo de pertubação e com a possibilidade de se incluir modelos aerodinâmicos não-lineares. Portanto, pode-se observar pontos críticos de projeto como fator de carga ou se a aeronave atinge o ângulo de stall em uma determinada manobra.
+
 
 # INSTRUÇÕES
 A planilha dinamicadados.xlsx recebe os dados da aeronave (Valores geométricos do avião, Coeficientes aerodinâmicos e Condições de contorno).\
